@@ -1,0 +1,11 @@
+while(True):
+    try:
+        str=input()
+    except:
+        break
+    while(len(str)>8):
+        unitstr=str[:8]
+        str=str[8:]
+        print(unitstr)
+    unitstr=(str+'00000000')[:8]
+    print(unitstr)

@@ -1,6 +1,6 @@
 while(True):
     try:
-        str=input()
+        str=int(input(),16)
     except:
         break
-    length=len(str)
+    print(str)
